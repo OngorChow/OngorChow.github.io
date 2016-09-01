@@ -3,7 +3,7 @@ layout: post
 title:  "Create your blog on github pages"
 date:   2016-09-01 14:22 +0800
 categories: github blog jekyll
-author: Ongor
+author: "Ongor"
 ---
 
 It is easy for us to create a blog with [github pages](https://pages.github.com/) , I would like to show you the building flow here, and we will use [Jekyll](https://jekyllrb.com/) for the blog site.
@@ -17,12 +17,20 @@ It is easy for us to create a blog with [github pages](https://pages.github.com/
     now, you have got the respository to local. let's go on.
     
 4. Install Jekyll and build the site.<br/>
-   {% highlight bash %}
+   <pre>
    $ gem install jekyll bundler
    $ jekyll new temp-folder
    $ cd temp-folder
    ~/temp-folder $ bundle install
    ~/temp-folder $ bundle exec jekyll serve
+   </pre>
+   <br/>
+   {% highlight css %}
+   #button{
+       color:#fff;
+       background:url('hahahah.jpg') no-repeat;
+       font-size:12px;
+   }
    {% endhighlight %}
    Now browse to *http://localhost:4000*
    <br/>
