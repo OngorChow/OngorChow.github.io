@@ -13,7 +13,7 @@ It is easy for us to create a blog with [github pages](https://pages.github.com/
 2. [Create your github respository](https://github.com/new) for the blog. <br/>*Notics:* the blog repository name must be the same as your username, just like `OngorChow.github.io` , the 'OngorChow' is my github username.
 
 3. Create a directory and clone your blog respository to local. just type the command below in the terminal.<br/>
-    <pre>$ mkdir my_block && cd my_block<br/>$ git clone https://github.com/username/username.github.io<br/>$ cd username.github.io</pre>
+    <pre>$ mkdir my_blog && cd my_blog<br/>$ git clone https://github.com/username/username.github.io<br/>$ cd username.github.io</pre>
     now, you have got the respository to local. let's go on.
     
 4. Install Jekyll and build the site.<br/>
