@@ -1,9 +1,18 @@
 theme: minima
 
-name: A site title
-author: Mr. GitHub User
-description: "Write an awesome description for your new site here. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: "Ongor: Front-end Note"
+name: "Ongor: Front-end Note"
+email: ongorchow@gmail.com
+author: Ongor
+author_email: ongorchow@gmail.com
+description: Ongor's Blog
 
-collections:
-  posts:
-    permalink: /posts/:title
+markdown: kramdown
+highlighter: true
+
+permalink: pretty
+paginate_path: /page:num
+timezone:      Hongkong
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]

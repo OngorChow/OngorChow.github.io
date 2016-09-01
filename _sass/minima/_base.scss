@@ -23,6 +23,8 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    background-image:url("/images/texture.png");
+    background-repeat: repeat;
 }
 
 
@@ -91,16 +93,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $dark;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: lighten($dark, 20%);
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: $brand-color;
     }
 }
 
@@ -195,4 +196,9 @@ pre {
     path {
         fill: $grey-color;
     }
+}
+
+//common class
+.text-center{
+  text-align: center !important;
 }
