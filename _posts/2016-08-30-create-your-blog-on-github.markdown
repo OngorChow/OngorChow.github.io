@@ -16,7 +16,7 @@ It is easy for us to create a blog with [github pages](https://pages.github.com/
     <pre>$ mkdir my_blog && cd my_blog<br/>$ git clone https://github.com/username/username.github.io<br/>$ cd username.github.io</pre>
     now, you have got the respository to local. let's go on.
     
-4. Install Jekyll and build the site.<br/>
+4. Install Jekyll and build the site. <br/>
    <pre>
    $ gem install jekyll bundler
    $ jekyll new temp-folder
