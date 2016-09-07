@@ -24,7 +24,7 @@ It is easy for us to create a blog with [github pages](https://pages.github.com/
    ~/temp-folder $ bundle install
    ~/temp-folder $ bundle exec jekyll serve
    </pre>
-   Now browse to *http://localhost:4000*
+   Now browse to *http://localhost:4000* 
    <br/>
    OK, just stop the local server with `ctrl-c`, and copy all the files in temp-folder to your blog respository directory. (I know this is a stupid way... any suggestion?)
    
